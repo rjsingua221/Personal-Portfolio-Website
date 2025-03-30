@@ -114,4 +114,58 @@
     background-color: #f8f9fa;
     border-radius: 5px;
   }
+  // About Section
+.about {
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  // Mission & Vision
+  .container {
+    max-width: 1100px;
+  }
+  
+  .border {
+    border: 2px solid #FF5733 !important;
+  }
+  
+  h2 {
+    color: #FF5733;
+  }
+  
+  h3 {
+    color: #2B1B17;
+  }
+  
+  // Team Section
+  .rounded-circle {
+    border: 3px solid #FF5733;
+  }
+  // Contact Section
+.contact {
+    background-color: #FF5733;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  // Form Styling
+  .form-control {
+    border-radius: 8px;
+    border: 2px solid #FF5733;
+    &:focus {
+      border-color: darken(#FF5733, 10%);
+      box-shadow: 0 0 5px rgba(255, 87, 51, 0.5);
+    }
+  }
+  
+  // Social Media Buttons
+  .social-icons {
+    .btn {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
   
