@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/imgs/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+        My Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto text-center">
+          <a href="index.html" class="nav-item nav-link text-white py-2">Home</a>
+          <a href="about.html" class="nav-item nav-link text-white py-2">About Me</a>
+          <a href="contact.html" class="nav-item nav-link text-white py-2">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center text-center text-white">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Welcome to My Portfolio</h1>
+      <p class="lead">Showcasing my work in UI Design, Branding, and Illustration.</p>
+      <a href="about.html" class="btn btn-primary btn-lg mt-3">
+        <i class="bi bi-person"></i> Learn More
+      </a>
+    </div>
+  </section>
+
+  <!-- Skills & Featured Projects -->
+  <section class="container my-5">
+    <div class="row">
+      <!-- Skills Section -->
+      <div class="col-md-6">
+        <h2 class="mb-4">My Skills</h2>
+        <ul class="list-group">
+          <li class="list-group-item">🎨 UI Design</li>
+          <li class="list-group-item">🔥 Branding</li>
+          <li class="list-group-item">✏️ Illustration</li>
+        </ul>
+      </div>
+
+      <!-- Featured Projects -->
+      <div class="col-md-6">
+        <h2 class="mb-4">Featured Projects</h2>
+        <div class="row g-3">
+          <div class="col-4">
+            <img src="assets/imgs/project1.jpg" class="img-fluid rounded shadow" alt="Project 1">
+          </div>
+          <div class="col-4">
+            <img src="assets/imgs/project2.jpg" class="img-fluid rounded shadow" alt="Project 2">
+          </div>
+          <div class="col-4">
+            <img src="assets/imgs/project3.jpg" class="img-fluid rounded shadow" alt="Project 3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
