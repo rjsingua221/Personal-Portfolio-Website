@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me - Personal Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/imgs/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+        My Portfolio
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto text-center">
+          <a href="index.html" class="nav-item nav-link text-white py-2">Home</a>
+          <a href="about.html" class="nav-item nav-link text-white py-2">About Me</a>
+          <a href="contact.html" class="nav-item nav-link text-white py-2 active">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact py-5">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Contact Me</h1>
+      <p class="lead">Have a question or want to work together? Send me a message!</p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Get In Touch</h2>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Google Map -->
+      <div class="col-md-6">
+        <h2>Find Me</h2>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.838120388688!2d-122.0842494846927!3d37.421999979825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24c5c2d1b1f%3A0xa2e676c5a1f58b29!2sGoogleplex!5e0!3m2!1sen!2sus!4v1611741234567!5m2!1sen!2sus" 
+          width="100%" 
+          height="300" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Media Links -->
+  <section class="container text-center my-5">
+    <h2>Connect with Me</h2
