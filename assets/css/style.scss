@@ -162,10 +162,15 @@
   }
   
   // Social Media Buttons
-  .social-icons {
+// Social Media Buttons Styling
+.social-icons {
     .btn {
       font-weight: bold;
       text-transform: uppercase;
+      transition: all 0.3s ease-in-out;
+  
+      &:hover {
+        transform: translateY(-3px);
+      }
     }
   }
-  

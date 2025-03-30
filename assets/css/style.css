@@ -139,4 +139,8 @@ h3 {
 .social-icons .btn {
   font-weight: bold;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.social-icons .btn:hover {
+  transform: translateY(-3px);
 }/*# sourceMappingURL=style.css.map */
