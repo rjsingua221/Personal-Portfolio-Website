@@ -7,21 +7,24 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" type="img/jpg" href="assets/imgs/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
-<body>
+<body class="bg-secondary text-tertiary">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-lg bg-tertiary navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="assets/imgs/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="assets/imgs/logo.png" alt="Logo" width="40" height="40" class="d-inline-block align-top me-2">
         My Portfolio
       </a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="navbar-nav ms-auto text-center">
+        <div class="navbar-nav ms-auto text-center align-items-start">
           <a href="index.html" class="nav-item nav-link text-white py-2">Home</a>
           <a href="about.html" class="nav-item nav-link text-white py-2">About Me</a>
           <a href="contact.html" class="nav-item nav-link text-white py-2">Contact</a>
@@ -31,15 +34,15 @@
   </nav>
 
   <!-- About Me Section -->
-  <section class="container text-center my-5">
-    <img src="assets/imgs/man.jpg" class="img-fluid mx-auto d-block" style="max-width: 400px; height: 400px;" alt="About Me">
+  <section class="container text-center my-5 bg-primary p-3 rounded-3 text-tertiary mt-0">
+    <img src="assets/imgs/man.jpg" class="img-fluid mx-auto d-block rounded-1" style="max-width: 400px; height: 400px;" alt="About Me">
     <h2 class="mt-3">Designer’s Journey</h2>
     <h1 class="display-4 fw-bold">About Me</h1>
     <p class="lead">Passionate about UI Design, Branding, and Illustration.</p>
   </section>
 
   <!-- Company/Product Overview -->
-  <section class="container my-5">
+  <section class="container my-5 bg-primary text-tertiary p-5 rounded-3">
     <div class="row">
       <div class="col-md-6">
         <img src="assets/imgs/hands.jpg" class="img-fluid rounded shadow" alt="About Image">
@@ -54,7 +57,7 @@
   </section>
 
   <!-- Mission & Vision -->
-  <section class="container my-5">
+  <section class="container my-5 bg-primary text-tertiary p-5 rounded-3">
     <h2 class="text-center mb-4">Mission & Vision</h2>
     <div class="row text-center">
       <div class="col-md-6">
@@ -79,7 +82,7 @@
   </section>
 
   <!-- Team Introduction (Optional) -->
-  <section class="container my-5">
+  <section class="container my-5 bg-primary text-tertiary p-5 rounded-3">
   <h2 class="text-center mb-4">Meet The Team</h2>
   <div class="row text-center justify-content-center">
     <div class="col-md-4">
@@ -97,7 +100,7 @@
 
 
   <!-- Designer’s Journey -->
-<section class="container my-5">
+<section class="container my-5 bg-primary text-tertiary p-5 rounded-3">
     <div class="row">
       <div class="col-md-6">
         <h2>My Journey</h2>
@@ -118,28 +121,43 @@
   </section>
 
   <!-- Tools & Software -->
-  <section class="container text-center my-5">
+  <section class="container text-center my-5 bg-primary text-tertiary p-5 rounded-3">
     <h2 class="mb-4">Tools & Software</h2>
     <div class="row justify-content-center g-3">
-      <div class="col-md-2">
-        <img src="assets/imgs/photoshop.png" class="img-fluid rounded shadow" alt="Adobe Photoshop">
+      <div class="col-4 col-md-2">
+        <img src="assets/imgs/photoshop.png" class="img-fluid rounded shadow w-75 w-md-100" alt="Adobe Photoshop">
         <p>Adobe Photoshop</p>
       </div>
-      <div class="col-md-2">
-        <img src="assets/imgs/illustrator.png" class="img-fluid rounded shadow" alt="Illustrator">
+      <div class="col-4 col-md-2">
+        <img src="assets/imgs/illustrator.png" class="img-fluid rounded shadow w-75 w-md-100" alt="Illustrator">
         <p>Illustrator</p>
       </div>
-      <div class="col-md-2">
-        <img src="assets/imgs/figma.png" class="img-fluid rounded shadow" alt="Figma">
+      <div class="col-4 col-md-2">
+        <img src="assets/imgs/figma.png" class="img-fluid rounded shadow w-75 w-md-100" alt="Figma">
         <p>Figma</p>
       </div>
-      <div class="col-md-2">
-        <img src="assets/imgs/canva.png" class="img-fluid rounded shadow" alt="Canva">
+      <div class="col-4 col-md-2">
+        <img src="assets/imgs/canva.png" class="img-fluid rounded shadow w-75 w-md-100" alt="Canva">
         <p>Canva</p>
       </div>
     </div>
   </section>
-
+  
+  <footer class="container-fluid text-center my-5 bg-primary p-5 w-100 mb-0">
+    <h2>Connect with Me</h2>
+    <div class="social-icons mt-3 d-flex gap-3 justify-content-center">
+        <a href="https://www.facebook.com/" class="btn btn-dark d-flex align-items-center gap-2">
+          <i class="bi bi-facebook"></i> Facebook
+        </a>
+        <a href="https://x.com/" class="btn btn-dark d-flex align-items-center gap-2">
+          <i class="bi bi-x"></i> Twitter
+        </a>
+        <a href="https://www.instagram.com/" class="btn btn-dark d-flex align-items-center gap-2">
+          <i class="bi bi-instagram"></i> Instagram
+        </a>
+      </div>
+      
+    </footer>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

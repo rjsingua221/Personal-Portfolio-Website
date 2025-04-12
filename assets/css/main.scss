@@ -7,16 +7,13 @@
 // CUSTOM VALUES
 // -----------------------------------------------------------------------------
 $theme-colors: (
-  "primary": #FF5733,
-  "secondary": #2B1B17,
-  "success": #FF8C42,
-  "danger": #D72638,
-  "warning": #FFB400,
-  "info": #33A1FD,
-  "light": #FFF4E6,
-  "dark": #1A1A1A
+  "primary": #ffffff,    // Light peach tone from secondary
+  "secondary": #FF5733,  // Your vibrant orange-red
+  "tertiary": #992D1D    // Deep burnt orange
 );
-
+.collapse {
+  transition: height 0.35s cubic-bezier(0.4, 0, 1, 1); /* fast-out, slow-in */
+}
 // ------------------------------------------------------------------------------------------------
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
