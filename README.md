@@ -31,13 +31,13 @@ The website uses a **personalized text-based logo**, reinforcing brand identity 
 The design follows a clean, structured layout. Below are the wireframes used to build the website:
 
 ### Homepage Wireframe
-<img src="assets/imgs/wire.jpg" alt="Homepage Wireframe" width="600"/>
+<img src="assets/imgs/wire1.jpg" alt="Homepage Wireframe" width="600"/>
 
 ### About Section Wireframe
-<img src="assets/imgs/wire1.jpg" alt="About Wireframe" width="600"/>
+<img src="assets/imgs/wire2.jpg" alt="About Wireframe" width="600"/>
 
-### Projects Section Wireframe
-<img src="assets/imgs/wire2.jpg" alt="Projects Wireframe" width="600"/>
+### Contact Section Wireframe
+<img src="assets/imgs/wire3.jpg" alt="Projects Wireframe" width="600"/>
 
 ---
 
