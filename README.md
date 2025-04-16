@@ -45,7 +45,7 @@ The design follows a clean, structured layout. Below are the wireframes used to 
 
 The website uses a **modern and minimalist color palette** to maintain a professional aesthetic:
 
-<img src="assets/imgs/color.jpg" alt="Color" width="200"/>
+<img src="assets/imgs/color.jpg" alt="Color" width="600"/>
 
 
 ---
