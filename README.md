@@ -45,11 +45,7 @@ The design follows a clean, structured layout. Below are the wireframes used to 
 
 The website uses a **modern and minimalist color palette** to maintain a professional aesthetic:
 
-| Color Name | Hex Code   | Description                |
-|------------|------------|----------------------------|
-| Primary    | #ffffff    | Background and base tone   |
-| Secondary  | #FF5733    | Highlights and buttons     |
-| Tertiary   | #992D1D    | Accents and contrast       |
+<img src="assets/imgs/color.jpg" alt="Color" width="200"/>
 
 
 ---
